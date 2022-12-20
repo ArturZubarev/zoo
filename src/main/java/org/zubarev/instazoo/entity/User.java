@@ -1,7 +1,7 @@
-package entity;
+package org.zubarev.instazoo.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import entity.enums.ERole;
+import org.zubarev.instazoo.entity.enums.ERole;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;

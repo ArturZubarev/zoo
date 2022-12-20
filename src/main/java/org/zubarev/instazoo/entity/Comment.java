@@ -1,9 +1,8 @@
-package entity;
+package org.zubarev.instazoo.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 @Data
 @Entity

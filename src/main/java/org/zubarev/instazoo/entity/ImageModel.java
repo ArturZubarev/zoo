@@ -1,4 +1,4 @@
-package entity;
+package org.zubarev.instazoo.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
