@@ -20,7 +20,7 @@ import java.util.Collections;
 
 @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 public class JWTAuthenticationFilter extends OncePerRequestFilter {
-    public static final Logger log= LoggerFactory.getLogger(JWTAuthenticationFilter.class);git
+    public static final Logger log= LoggerFactory.getLogger(JWTAuthenticationFilter.class);
     /**
      * Выпадала ошибка на бины, использовал Suppress for class
      */
