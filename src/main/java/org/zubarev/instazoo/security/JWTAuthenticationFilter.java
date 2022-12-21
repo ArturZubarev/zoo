@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 import org.zubarev.instazoo.entity.User;
@@ -17,7 +18,7 @@ import org.zubarev.instazoo.services.CustomUserDetailsService;
 
 import java.io.IOException;
 import java.util.Collections;
-
+@Component
 @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 public class JWTAuthenticationFilter extends OncePerRequestFilter {
     public static final Logger log= LoggerFactory.getLogger(JWTAuthenticationFilter.class);

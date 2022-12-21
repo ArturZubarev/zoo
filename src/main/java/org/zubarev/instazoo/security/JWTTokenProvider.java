@@ -1,7 +1,7 @@
 package org.zubarev.instazoo.security;
 
 import io.jsonwebtoken.*;
-import javax.persistence.CollectionTable;
+import jakarta.persistence.CollectionTable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.neo4j.Neo4jProperties;
