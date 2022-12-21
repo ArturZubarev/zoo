@@ -6,6 +6,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.zubarev.instazoo.entity.User;
 import org.zubarev.instazoo.repository.UserRepository;
@@ -14,10 +15,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Component
 public class CustomUserDetailsService implements UserDetailsService {
     private final UserRepository repository;
     @Autowired
-
     public CustomUserDetailsService(UserRepository repository) {
         this.repository = repository;
     }
