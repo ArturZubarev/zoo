@@ -3,8 +3,8 @@ package org.zubarev.instazoo.validatons;
 import org.zubarev.instazoo.annotations.PasswordMatchers;
 import org.zubarev.instazoo.payload.request.SignUpRequest;
 
-import jakarta.validation.ConstraintValidator;
-import jakarta.validation.ConstraintValidatorContext;
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
 
 public class PasswordMatchersValidator implements ConstraintValidator <PasswordMatchers,Object>{
     @Override

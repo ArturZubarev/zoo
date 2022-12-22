@@ -2,7 +2,7 @@ package org.zubarev.instazoo.payload.request;
 
 import lombok.Data;
 
-import jakarta.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotEmpty;
 
 @Data
 public class LoginRequest {

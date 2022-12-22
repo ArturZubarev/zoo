@@ -1,10 +1,10 @@
 package org.zubarev.instazoo.annotations;
 
-import jakarta.validation.Payload;
+import javax.validation.Payload;
 import org.zubarev.instazoo.validatons.PasswordMatchersValidator;
 
-import jakarta.validation.Constraint;
-import jakarta.validation.Payload;
+import javax.validation.Constraint;
+import javax.validation.Payload;
 import java.lang.annotation.*;
 
 @Target({ElementType.TYPE,ElementType.ANNOTATION_TYPE})
