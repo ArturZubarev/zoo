@@ -8,6 +8,10 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
+/**
+ * При регистрации пользователь будет отправлять на сервер
+ * объект данного класса
+ */
 
 @Data
 public class SignUpRequest {
